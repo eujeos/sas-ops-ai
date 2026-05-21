@@ -116,6 +116,7 @@ client = Groq(
 with st.sidebar:
     st.title("⚙️ SAS AI Ops")
     st.markdown("---")
+    st.sidebar.markdown("[← Voltar para Home](https://sas-ops-ai.bullet.site)")
 
     st.markdown("""
 ### Módulos SAS
