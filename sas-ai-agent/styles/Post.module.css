@@ -1,0 +1,52 @@
+.page { padding: 60px 0 80px; }
+.postWrapper { max-width: 720px; margin: 0 auto; }
+.postMeta { margin-bottom: 28px; }
+.backLink { font-size: 13px; color: var(--text-3); font-family: var(--font-mono); display: inline-block; margin-bottom: 16px; transition: color .15s; text-decoration: none !important; }
+.backLink:hover { color: var(--accent); }
+.metaRow { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.metaDate, .metaRead { font-size: 12px; color: var(--text-3); font-family: var(--font-mono); }
+
+.postTitle { font-size: clamp(28px, 4vw, 44px); letter-spacing: -0.02em; margin-bottom: 20px; line-height: 1.15; }
+.postLead { font-size: 17px; color: var(--text-2); line-height: 1.75; margin-bottom: 40px; border-left: 2px solid var(--accent); padding-left: 20px; }
+
+.postBody h2 { font-size: 22px; font-family: var(--font-display); font-weight: 700; margin: 36px 0 14px; color: var(--text); }
+.postBody p { font-size: 15px; color: var(--text-2); line-height: 1.8; margin-bottom: 16px; }
+.postBody em { color: var(--accent); font-style: italic; }
+
+.codeBlock {
+  background: var(--bg-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  margin: 24px 0;
+  overflow: hidden;
+}
+.codeHeader {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--text-3);
+  font-family: var(--font-mono);
+  background: var(--bg-4);
+}
+.codeBlock pre {
+  padding: 18px 20px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-2);
+  line-height: 1.9;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+
+.hookBox {
+  background: var(--bg-2);
+  border: 1px solid rgba(245,166,35,0.2);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 16px 20px;
+  margin: 32px 0;
+}
+.hookLabel { font-size: 11px; color: var(--accent); font-family: var(--font-mono); font-weight: 700; display: block; margin-bottom: 6px; }
+.hookBox p { font-size: 14px; color: var(--text-2); line-height: 1.7; margin: 0; }
+
+.postFooter { display: flex; gap: 12px; margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border); flex-wrap: wrap; }
